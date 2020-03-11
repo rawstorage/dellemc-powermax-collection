@@ -7,6 +7,8 @@ Using a collection simplifies the install and managment of modules.
 
 ansible-galaxy collection install dellemc-powermax-1.1.tar.gz -p ~/.ansible/collections
 
+ansible-doc dellemc.powermax.dellemc_powermax_gatherfacts
+
 To use the collection in a playbook
 
 ---
